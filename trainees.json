@@ -1,0 +1,23 @@
+{
+  "KeishaHobbs": {
+    "name": "Keisha Hobbs",
+    "businessName": "Keisha Hobbs Tax Services",
+    "email": "keisha@example.com",
+    "tagline": "Where Ambition Meets Strategy",
+    "logoUrl": "/logos/keisha-hobbs.png",
+    "primaryColor": "#2f7ae8",
+    "primaryDark": "#1a4fb0",
+    "primarySoft": "#5a9bf0",
+    "primaryLight": "#eef4ff",
+    "backedBy": true
+  },
+  "JohnDoe": {
+    "name": "John Doe",
+    "businessName": "John Doe Tax & Financial",
+    "email": "john@example.com",
+    "tagline": "Where Ambition Meets Strategy",
+    "logoUrl": "",
+    "primaryColor": "",
+    "backedBy": true
+  }
+}
