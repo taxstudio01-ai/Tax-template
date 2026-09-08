@@ -103,7 +103,7 @@ h1{font-size:3.35rem}.cards,.steps{grid-template-columns:1fr}
     <div class="eyebrow">Tax Preparation • Tax Strategy • Business Tax Support</div>
     <h1>Because You're More Than a Tax Return.</h1>
     <p>Everyone's situation is different. Your tax preparation should be too.</p>
-    <a class="btn btn-white" href="#consultation">Schedule a 10–15 Minute Consultation</a>
+    <a class="btn btn-white" href="https://calendly.com/taxesandnotary254">Schedule a 10–15 Minute Consultation</a>
   </div>
 </section>
 
@@ -190,7 +190,7 @@ h1{font-size:3.35rem}.cards,.steps{grid-template-columns:1fr}
     <div class="kicker">Let's Talk</div>
     <h2>Let's Talk About Your Taxes.</h2>
     <p>Everyone's situation is different. Schedule a quick 10–15 minute consultation and let's talk about yours.</p>
-    <a class="btn btn-white" id="js-cta-btn" href="mailto:taxesandnotary254@gmail.com?subject=10-15%20Minute%20Tax%20Consultation">Schedule My Consultation</a>
+    <a class="btn btn-white" id="js-cta-btn" href="https://calendly.com/taxesandnotary254">Schedule My Consultation</a>
   </div>
 </section>
 </main>
@@ -249,7 +249,9 @@ h1{font-size:3.35rem}.cards,.steps{grid-template-columns:1fr}
       document.getElementById('js-backed-by').style.display = 'block';
     }
 
-    if (person.email) {
+    if (person.calendlyUrl) {
+      document.getElementById('js-cta-btn').href = person.calendlyUrl;
+    } else if (person.email) {
       document.getElementById('js-cta-btn').href =
         'mailto:' + person.email + '?subject=10-15%20Minute%20Tax%20Consultation';
     }
