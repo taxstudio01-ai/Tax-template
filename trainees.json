@@ -19,5 +19,17 @@
     "logoUrl": "",
     "primaryColor": "",
     "backedBy": true
+  },
+  "BrittanyWilson": {
+    "name": "Brittany Wilson",
+    "businessName": "No Diggity, No Doubt",
+    "email": "Brittney.wilson8755@gmail.com",
+    "tagline": "Where Ambition Meets Strategy",
+    "logoUrl": "/Photoroom_20261004_145159.png",
+    "primaryColor": "#e02424",
+    "primaryDark": "#9a1414",
+    "primarySoft": "#f05a5a",
+    "primaryLight": "#fdeeee",
+    "backedBy": true
   }
 }
