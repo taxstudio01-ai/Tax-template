@@ -1,0 +1,47 @@
+{
+  "KeishaHobbs": {
+    "name": "Keisha Hobbs",
+    "businessName": "Keisha Hobbs Tax Services",
+    "email": "keisha@example.com",
+    "tagline": "Where Ambition Meets Strategy",
+    "logoUrl": "/logos/keisha-hobbs.png",
+    "primaryColor": "#2f7ae8",
+    "primaryDark": "#1a4fb0",
+    "primarySoft": "#5a9bf0",
+    "primaryLight": "#eef4ff",
+    "backedBy": true
+  },
+  "JohnDoe": {
+    "name": "John Doe",
+    "businessName": "John Doe Tax & Financial",
+    "email": "john@example.com",
+    "tagline": "Where Ambition Meets Strategy",
+    "logoUrl": "",
+    "primaryColor": "",
+    "backedBy": true
+  },
+  "BrittanyWilson": {
+    "name": "Brittany Wilson",
+    "businessName": "Brittany Wilson | No Diggity, No Doubt",
+    "email": "Brittney.wilson8755@gmail.com",
+    "tagline": "Where Ambition Meets Strategy",
+    "logoUrl": "/Photoroom_20261004_145159.png",
+    "primaryColor": "#e02424",
+    "primaryDark": "#9a1414",
+    "primarySoft": "#f05a5a",
+    "primaryLight": "#fdeeee",
+    "backedBy": true
+  },
+  "ChianteHenderson": {
+    "name": "Chiante Henderson",
+    "businessName": "Tax'D by Chiante",
+    "email": "chiante_nicole@yahoo.com",
+    "tagline": "Where Ambition Meets Strategy",
+    "logoUrl": "",
+    "primaryColor": "#e0a800",
+    "primaryDark": "#a67900",
+    "primarySoft": "#f0c93f",
+    "primaryLight": "#fffaeb",
+    "backedBy": true
+  }
+}
