@@ -230,11 +230,15 @@ h1{font-size:3.35rem}.cards,.steps{grid-template-columns:1fr}
     document.getElementById('js-footer').textContent = '© 2026 ' + brandName + '. All rights reserved.';
     document.getElementById('js-tagline').textContent = person.tagline || 'Where Ambition Meets Strategy';
 
+    // Only show a logo image if this trainee has their own; otherwise hide it
+    // entirely rather than falling back to Sherry's default homepage logo.
+    const logoImg = document.getElementById('js-logo-img');
     if (person.logoUrl) {
-      const logoImg = document.getElementById('js-logo-img');
       logoImg.src = person.logoUrl;
       logoImg.alt = brandName + ' logo';
       logoImg.style.display = 'block';
+    } else {
+      logoImg.style.display = 'none';
     }
 
     if (person.primaryColor) {
